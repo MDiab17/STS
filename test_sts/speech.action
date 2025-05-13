@@ -1,0 +1,13 @@
+# GOAL 
+string task_name            # e.g. "pick_up", "place", "navigate"
+string target_object        # semantic label or frame ID; empty if N/A
+
+##############################################################################
+# RESULT 
+bool   success              # TRUE if task reached a terminal success state
+string result_message       # human‑readable summary ("Grasped the red cube." or error text)
+
+##############################################################################
+# FEEDBACK 
+float32 progress            # 0.0–1.0   rough % done (use ‑1.0 if not computable yet)
+string  current_step        # e.g. "locating_object", "planning_grasp", "moving_arm"

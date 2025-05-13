@@ -1,0 +1,6 @@
+openai>=1.0.0
+SpeechRecognition>=3.10.0
+pygame>=2.5.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+flask>=3.0.0 
